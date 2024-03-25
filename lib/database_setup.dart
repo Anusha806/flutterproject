@@ -19,7 +19,7 @@ class Database_setup {
 
   Future<void> insertData(String name, String id, String email) async {
     final connection = PostgreSQLConnection(
-       this.host, 
+      this.host, 
       this.port, 
       this.databasename,
       this.username,
