@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:postgres/postgres.dart';
+
 
 class submitpage extends StatelessWidget{
   final String name;
